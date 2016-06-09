@@ -1,0 +1,29 @@
+/*
+Theme Name: Zax Right Sidebar
+Author: Zax Rosenberg
+Description: Bootstrap template with right sidebar
+Version: 0.0.1
+Tags: bootstrap
+*/
+
+body {
+  padding-top: 70px;
+  background-image: url("../../modalpuppy/images/deep-green-grass-texture.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+}
+
+.navbar-fixed-top { top: 0px; }
+.admin-bar .navbar-fixed-top { top: 28px !important; }
+
+#searchform {
+	background-color: lightblue !important;
+}
